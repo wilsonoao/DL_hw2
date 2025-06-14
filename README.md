@@ -14,6 +14,7 @@ pip install segmentation-models-pytorch
 
 ## Eval
 請依作業說明將資料集解壓至 data/ 目錄下，結構需如下：  
+```
 data/  
   mini_voc_seg/  
     test/  
@@ -27,8 +28,8 @@ data/
     test/  
       images/  
       labels/  
-
-bash  
+```
+``` bash  
 python eval.py --weights your_model.pt --data_root data --tasks all  
-
+```
 
