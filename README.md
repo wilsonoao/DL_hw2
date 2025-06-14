@@ -2,7 +2,7 @@
 ## 必要套件 Requirements
 請確保你的環境（Colab 或本地）安裝下列 Python 套件：
 
-pip install torch torchvision
+pip install torch torchvision\n
 pip install torchmetrics
 pip install pycocotools
 pip install tqdm
